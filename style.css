@@ -1,0 +1,197 @@
+/* Common part style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Header section start */
+.banner-section{
+    background-image: url(images/banner3.png);
+    height: 63vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+   padding-right: 150px;
+   padding-top: 150px;
+   padding-bottom: 100px;
+   color: white; 
+   letter-spacing: 1px;
+   
+} 
+
+.banner-section div h1{
+    padding: 20px;
+}
+.banner-section div p{
+
+   line-height: 1.8em;
+}
+.btn-contact{
+    margin: 20px;
+    padding:16px 25px;
+    border-radius: 5px;
+    border-style: none;
+    color: #005FAC;
+    font-size: 20px;
+
+}
+/* Header section end */
+
+/* failure section start */
+.failure{
+    display: flex;
+}
+.failure-img img{
+    width: 60%;
+    height: 85%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.failure-description{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.failure-description h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.failure-description ul{
+    padding-left: 35px;
+    padding-top: 15px;
+}
+/* failure section end */
+
+/* plans section start */
+.plan-section{
+    text-align: center;
+}
+
+.plan-img img{
+    width: 50px;
+    height: 50px;
+}
+.plan-div{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+}
+.plans{
+    padding-left: 50px;
+}
+.plans h4{
+padding-top: 15px;
+padding-bottom: 10px;
+}
+.plans p{
+    color: #737272;
+}
+/* plans section end */
+
+/* personal development section start */
+.personal-development{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 20px;
+    
+}
+.personal-development img{
+    width: 300px;
+}
+.personal-development h2{
+    margin-bottom: 20px;
+}
+.resolution img{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+
+}
+/* personal development section start */
+
+/* Mindset section start */
+.mindset-section{
+    background-image:
+    linear-gradient(to right, rgba(42, 67, 209, 0.52), rgba(224, 220, 240, 0)),
+    url(images/watch.png);
+
+    background-blend-mode:lighten;
+    height: 300px;
+    width: 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    color: white;
+}
+.mindset-section h2{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.btn-call{
+    margin-left: 120px;
+    padding:16px 25px;
+    border-radius: 5px;
+    border-style: none;
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+/* Mindset section start */
+
+/* Footer section start */
+.footer{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    background-color: black;
+}
+.footer-left {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-left h2{
+    margin-bottom: 20px;
+}
+.footer-left p{
+    margin-bottom: 20px;
+}
+.footer-right {
+    padding-top: 50px;
+}
+.footer-right h3{
+    margin-bottom: 30px;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+.icons a{
+    padding-left: 20px;
+
+}
+input{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    border-color: white;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+.btn-subscribe{
+    background-color: rgb(58, 58, 222);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* Footer section end */
